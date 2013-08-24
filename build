@@ -1,0 +1,3 @@
+#!/bin/bash -x
+
+runghc include.hs < stream-fusion.txt | pandoc -s -S -t html5 -f native --mathjax -o index.html
