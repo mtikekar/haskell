@@ -1,4 +1,3 @@
--- file: collatz.hs
 import Data.Word
 import Data.List
 import System.Environment
